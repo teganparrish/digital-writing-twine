@@ -9,7 +9,32 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play test-week-4.</tw-noscript></noscript></tw-story>
-<tw-storydata name="test-week-4" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="06302E32-3FBF-4264-B059-DC3EB1C10228" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Test Twine" tags="" position="575,250" size="100,100">My favourite colours are [[light blue]] and [[white]]
+<tw-storydata name="test-week-4" startnode="1" creator="Twine" creator-version="2.11.1" format="Harlowe" format-version="3.3.9" ifid="06302E32-3FBF-4264-B059-DC3EB1C10228" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+tw-story {
+  font-family: "Iosevka Charon", monospace;
+  font-weight: 300;
+  font-style: normal;
+  color: #FFF;
+  background-color: #000;
+}
+
+.story-image {
+  width: 100%;
+}
+
+tw-link, tw-link:link, tw-link:visited, tw-link.visited {
+  color: #FFF;
+  text-decoration: underline;
+}
+tw-link:focus, tw-link:hover, tw-link:active, tw-link.visited:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+tw-passage {
+  padding-bottom: 200px;}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Test Twine" tags="" position="575,250" size="100,100">My favourite colours are [[light blue]] and [[white]]
 
 [[Hello]]</tw-passagedata><tw-passagedata pid="2" name="light blue" tags="" position="575,375" size="100,100">Here is light blue. 
 
@@ -37,10 +62,9 @@ This is yet another line.]</tw-passagedata><tw-passagedata pid="5" name="Hello" 
 
 (t8n-delay: 6s) + (t8n: &quot;dissolve&quot;) [different words go here yay]
 
-&lt;img class=&quot;story-image&quot; src=&quot;./images/download.jpeg&quot; alt=&quot;an example&quot; /&gt;
+[[&lt;img class=&quot;story-image&quot; src=&quot;./images/download.jpeg&quot; alt=&quot;an example&quot; /&gt;-&gt;Mystery corridor]]
 
-
-</tw-passagedata></tw-storydata>
+Open door</tw-passagedata><tw-passagedata pid="6" name="Mystery corridor" tags="" position="325,500" size="100,100">Corridor</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
